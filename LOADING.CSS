@@ -97,3 +97,12 @@ box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
   visibility: hidden;
     position: absolute;
 }
+
+@media (max-width: 768px) {
+  .loader {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 60px;
+  }
+
+}
