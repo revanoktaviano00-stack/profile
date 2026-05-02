@@ -333,8 +333,8 @@ html, body {
   transition: opacity 0.3s ease, transform 0.3s ease;
   font-family: "Train One", system-ui;
   text-transform: uppercase;
-  line-height: 1.5;
-  padding: 20px;
+  line-height: 1.2;
+
   z-index: 2;
   pointer-events: none;
 }
