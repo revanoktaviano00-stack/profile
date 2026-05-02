@@ -214,7 +214,7 @@ html, body {
 }
 
 .main-text {
-    margin-top: 100px;
+  margin-top: 80px;
     font-size: 17px;
     font-weight: bold;
     font-family: "Quicksand", system-ui;
@@ -453,19 +453,19 @@ border-radius: 50%;
 
     .fContainer {
     width: 100vw;
-    height: 1650px;
-    padding-top: 60px;
+    height: 1450px;
+
   }
 
   .main-text {
     margin-left: 4vw;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 24px;
-    padding: 10px;
+     text-align: center;
   }
 
   .profile-row {
-    margin-top: 50px;
+    margin-top: 10px;
     flex-direction: column;
     gap: 30px;
     align-items: center;
