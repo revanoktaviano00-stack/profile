@@ -409,8 +409,9 @@ html, body {
 
   .background {
   width: 85vw;
-  height: 300px;
-  display: absolute;}
+  height: 50vh;
+  display: absolute;
+  }
 
   .main-text {
     text-align: center;
@@ -422,7 +423,7 @@ html, body {
 
   .song-img {
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 5%;
     width: 13vw;
     height: 13vw;
@@ -431,7 +432,7 @@ html, body {
 
   .lyrics {
     font-size: 4vw;
-    padding: 2px;
+    padding: 1px;
   }
 
   .fContainer {
