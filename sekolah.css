@@ -471,16 +471,14 @@ border-radius: 50%;
     align-items: center;
   }
   .sd, .smp, .smk {
-    width: 65vw;
-    height: auto;
+    width: 80vw;
+    height: 320px;
     align-items: center;
   }
 
   .sd-img, .smp-img, .smk-img {
     width: 50vw;
     height: auto;
-    margin-top: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 0 auto;
   }
 }
