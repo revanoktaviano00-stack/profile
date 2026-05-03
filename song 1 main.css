@@ -144,12 +144,12 @@ html, body {
       font-family: Arial, Helvetica, sans-serif;
   }
 
-  .sub_profile {
+.sub_profile {
   position: absolute;
   top: 30px;
   left: 0;
   padding: 10px 0;
-  min-width: 150px;
+  width: 100px;
   list-style: none;
   background: #000;
   border-radius: 5px;
@@ -198,12 +198,12 @@ html, body {
       font-family: Arial, Helvetica, sans-serif;
   }
 
-  .sub_project {
+.sub_project {
   position: absolute;
   top: 30px;
   left: 0;
   padding: 10px 0;
-  min-width: 150px;
+  width: 120px;
   list-style: none;
   background: #000;
   border-radius: 5px;
@@ -399,6 +399,12 @@ html, body {
   .lastname {
     font-size: 16px;
   }
+
+  .sub_profile {
+    width: 85px;}
+
+  .sub_project {
+    width: 85px;}
 
   .navigation {
     font-size: 16px;
