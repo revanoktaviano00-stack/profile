@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="KALKULATOR.CSS">
+  <link rel="stylesheet" href="LOADING.CSS">
+  <script src="KALKULATOR.JS"></script>
+  <title>Kalkulator</title>
+</head>
+
+<body>
+
+   <div class="loader">
+    <div class="ring"></div>
+    <span class="text">loading...</span>
+  </div>
+
+  <div class="fContainer" style="display: none;">
+
+ <nav class="wrapper">
+
+  <div class="brand">
+<div class="firstname"><a href="c:\Users\user\OneDrive\Desktop\coding\TUGAS V2\INDEX\INDEX.HTML">r</a></div>
+  <div class="lastname"><a href="c:\Users\user\OneDrive\Desktop\coding\TUGAS V2\INDEX\INDEX.HTML">☆</a></div>
+  </div>
+
+  <ul class="navigation">
+    <li class="profile">ABOUT
+
+    <ul class="sub_profile">
+    <li><a href="c:\Users\user\OneDrive\Desktop\coding\TUGAS V2\PROFILE\PROFILE.HTML">profile</a></li>
+    <li><a href="c:\Users\user\OneDrive\Desktop\coding\TUGAS V2\SEKOLAH\SEKOLAH.HTML">sekolah</a></li>
+    <li><a href="c:\Users\user\OneDrive\Desktop\coding\TUGAS V2\KONTAK\KONTAK.HTML">kontak</a></li>
+    <li><a href="c:\Users\user\OneDrive\Desktop\coding\TUGAS V2\FAVORITE\FAVORITE.HTML">favorite</a></li>
+    </ul>
+    </li>
+
+    <li class="project">PROJECT
+      
+    <ul class="sub_project">
+    <li><a href="c:\Users\user\OneDrive\Desktop\coding\TUGAS V2\KALKULATOR\KALKULATOR.HTML">kalkulator</a></li>
+      
+      </ul>
+    </li>
+  </ul>
+  </nav>
+
+  <div class="main-text">
+<h1>kalkulator</h1>
+</div>
+
+
+<div class="kalkulator">
+<form>
+
+  <div class="display">
+    <input type="text" name="display" readonly>
+  </div>
+
+<div>
+  <input type="button" value="AC" onclick="display.value = ''">
+  <input type="button" value="DE" onclick="display.value = display.value.toString().slice(0, -1)">
+  <input type="button" value="." onclick="display.value += '.'">
+  <input type="button" value="÷" onclick="display.value += '/'">
+</div>
+
+<div>
+  <input type="button" value="7" onclick="display.value += '7'">
+  <input type="button" value="8" onclick="display.value += '8'">
+  <input type="button" value="9" onclick="display.value += '9'">
+  <input type="button" value="×" onclick="display.value += '*'">
+</div>
+
+<div>
+  <input type="button" value="4" onclick="display.value += '4'">
+  <input type="button" value="5" onclick="display.value += '5'">
+  <input type="button" value="6" onclick="display.value += '6'">
+  <input type="button" value="-" onclick="display.value += '-'">
+</div>
+
+<div>
+  <input type="button" value="1" onclick="display.value += '1'">
+  <input type="button" value="2" onclick="display.value += '2'">
+  <input type="button" value="3" onclick="display.value += '3'">
+  <input type="button" value="+" onclick="display.value += '+'">
+</div>
+
+<div>
+  <input type="button" value="00" onclick="display.value += '00'">
+  <input type="button" value="0" onclick="display.value += '0'">
+  <input type="button" value="=" onclick="display.value = eval(display.value)" class="sama_dengan">
+</div>
+</form>
+</div>
+
+
+
+</div>
+</body>
+</html>
